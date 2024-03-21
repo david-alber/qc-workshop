@@ -2,3 +2,4 @@ api_key.txt
 qiskit_env
 testenv
 .ipynb_checkpoints
+.DS_Store
