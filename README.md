@@ -28,16 +28,16 @@ Copy your personal IQP API Token to the `api_key_template.txt` file and change i
   1) Download Python [here](https://www.python.org/downloads/) 🐍.
   
   2) Create a virtual environment 
-    ```sh
-    python3 -m venv qiskit_env
-    source qiskit_env/bin/activate
-    python3 -m pip install -r requirements.txt
-    python3 -m ipykernel install --name “qiskit_env”
-    ```
+  ```sh
+  python3 -m venv qiskit_env
+  source qiskit_env/bin/activate
+  python3 -m pip install -r requirements.txt
+  python3 -m ipykernel install --name “qiskit_env”
+  ```
 
   3) Start a Jupyter-Lab session
-    ```sh
-    jupyter lab
-    ```
+  ```sh
+  jupyter lab
+  ```
 
   4) Choose the newly created kernel in your Jupyter notebook session.
