@@ -17,9 +17,6 @@ The account is available to everyone and is completely free of charge.
 
 Copy your personal IQP API Token to the `api_key_template.txt` file and change its name to `api_key.txt`
 
-👉 Remote execution via IQP hosted compute resources with preset environment:
-  1) Upload the Jupyter notebooks to the [IBM Quantum Platform Lab](https://lab.quantum.ibm.com/)
-  2) Upload your api_key.txt file or copy it in the respective code cell.
 
 👉 [Binder](https://mybinder.org/) container with preset environment:
   1) Go to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/david-alber/qc-workshop/main). Everything is set up for you 😉.
@@ -31,10 +28,10 @@ Copy your personal IQP API Token to the `api_key_template.txt` file and change i
   
   2) Create a virtual environment 
   ```sh
-  python3 -m venv qiskit_env
-  source qiskit_env/bin/activate
+  python3 -m venv qc_workshop
+  source qc_workshop/bin/activate
   python3 -m pip install -r requirements.txt
-  python3 -m ipykernel install --name “qiskit_env”
+  python3 -m ipykernel install --name qc_workshop
   ```
 
   3) Start a Jupyter-Lab session

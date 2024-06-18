@@ -1,5 +1,7 @@
 api_key.txt
 qiskit_env
+qc_workshop
 testenv
 .ipynb_checkpoints
 .DS_Store
+solution_*.ipynb
