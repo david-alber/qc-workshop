@@ -4,4 +4,4 @@ qc_workshop
 testenv
 .ipynb_checkpoints
 .DS_Store
-solution_*.ipynb
+sol_*.ipynb
