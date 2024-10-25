@@ -30,8 +30,14 @@ Copy your personal IQP API Token to the `api_key_template.txt` file and change i
   ```sh
   python3 -m venv qc_workshop
   source qc_workshop/bin/activate
-  python3 -m pip install -r requirements.txt
+  pip install -r requirements.txt
   python3 -m ipykernel install --name qc_workshop
+  ```
+  **Note:**
+  
+   To activate your Python virtual environment on **Windows** use: 
+  ```sh
+  qc_workshop\Scripts\activate.bat
   ```
 
   3) Start a Jupyter-Lab session
