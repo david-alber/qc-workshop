@@ -1,6 +1,6 @@
 qiskit>=1.0.2
 qiskit-aer>=0.13.3
-qiskit-ibm-runtime>=0.21.2
+qiskit-ibm-runtime==0.24.1
 qiskit-machine-learning>=0.7.2
 qiskit-nature[pyscf]>=0.7.2
 qiskit-transpiler-service>=0.4.3
